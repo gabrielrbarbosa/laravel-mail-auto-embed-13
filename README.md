@@ -1,42 +1,14 @@
-[![Packagist](https://img.shields.io/packagist/v/eduardokum/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
-[![Packagist](https://img.shields.io/packagist/dt/eduardokum/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
-[![Packagist](https://img.shields.io/packagist/l/eduardokum/laravel-mail-auto-embed.svg?style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
-[![GitHub Actions](https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Feduardokum%2Flaravel-mail-auto-embed%2Fbadge)](https://actions-badge.atrox.dev/eduardokum/laravel-mail-auto-embed/goto)
-[![GitHub forks](https://img.shields.io/github/forks/eduardokum/laravel-mail-auto-embed.svg?color=lightgrey&style=flat-square)](https://github.com/eduardokum/laravel-mail-auto-embed)
+[![Packagist](https://img.shields.io/packagist/v/gabrielrbarbosa/laravel-mail-auto-embed-13.svg?style=flat-square)](https://github.com/gabrielrbarbosa/laravel-mail-auto-embed-13)
+[![Packagist](https://img.shields.io/packagist/dt/gabrielrbarbosa/laravel-mail-auto-embed-13.svg?style=flat-square)](https://github.com/gabrielrbarbosa/laravel-mail-auto-embed-13)
+[![Packagist](https://img.shields.io/packagist/l/gabrielrbarbosa/laravel-mail-auto-embed-13.svg?style=flat-square)](https://github.com/gabrielrbarbosa/laravel-mail-auto-embed-13)
+[![Laravel Compatibility](https://badge.laravel.cloud/badge/gabrielrbarbosa/laravel-mail-auto-embed-13)](https://packagist.org/packages/gabrielrbarbosa/laravel-mail-auto-embed-13)
 
 # Laravel Mail Auto Embed
 
 Automatically parses your messages and embeds the images found into your mail,
 replacing the original online-version of the image.
 
-Should work on Laravel 5.3+. Automatically tested for Laravel 5.4+ on PHP 7.0+.
-
-## Version Compatibility
-
-| Laravel | Package |
-|---------|---------|
-| \< 8.x  | 1.x     |
-| \> 9.x  | 2.x     |
-
-## Install
-
-You can install the package via composer:
-```shell
-composer require eduardokum/laravel-mail-auto-embed
-```
-
-This package uses Laravel 5.5 Package Auto-Discovery.
-For previous versions of Laravel, you need to add the following Service
-Provider:
-
-```php
-$providers = [
-    ...
-    \Eduardokum\LaravelMailAutoEmbed\ServiceProvider::class,
-    ...
- ];
-```
-
+Should work on Laravel 13.x.
 
 ## Usage
 

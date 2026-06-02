@@ -136,7 +136,6 @@ class AttachmentEmbedder extends Embedder
             $raw = curl_exec($ch);
             $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
             $contentType = curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
-            curl_close($ch);
 
             if ($httpcode == 200) {
                 $pathInfo = pathinfo($url);
